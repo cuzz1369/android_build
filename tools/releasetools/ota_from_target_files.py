@@ -620,19 +620,16 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
 
   system_progress = 0.75
 
-  script.Print("                    _____________________ ")
-  script.Print("                   /    www.slimroms.org |")
-  script.Print("                  /                      |")
-  script.Print("                 /    ___________________|")
-  script.Print("                /    /    ___             ")
-  script.Print("               /    / ___/   \            ")
-  script.Print("              /    / /   \___/____   ____ ")
-  script.Print("             /    /  |   |___/    \_/    |")
-  script.Print(" ___________/    /   |   |   |           |")
-  script.Print("|               /    |   |   |   |   |   |")
-  script.Print("|              /     |   |   |   |   |   |")
-  script.Print("|_____________/      \___^___^___^___^___/")
-  script.Print(" ")
+  script.Print("************************************************");
+  script.Print("************************************************");
+  script.Print("   /  ]/    |    \|   \ |  |  |/ ___/    |  |  |");
+  script.Print("  /  /|  o  |  _  |    \|  |  (   \_ |  ||  |  |");
+  script.Print(" /  / |     |  |  |  D  |  ~  |\__  ||  ||_   _|");
+  script.Print("/   \_|  _  |  |  |     |___, |/  \ ||  ||     |");
+  script.Print("\     |  |  |  |  |     |     |\    ||  ||  |  |");
+  script.Print(" \____|__|__|__|__|_____|____/  \___|____|__|__|");
+  script.Print("************************************************");
+  script.Print("************************************************");
 
   if OPTIONS.wipe_user_data:
     system_progress -= 0.1
